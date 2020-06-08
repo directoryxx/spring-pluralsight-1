@@ -8,16 +8,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("speakerService")
 public class SpeakerServiceImpl implements SpeakerService{
 
     private SpeakerRepository repository ;
 
-    public SpeakerServiceImpl(){
-        System.out.println("No args constructor");
-    }
 
-    @Autowired
+
     public SpeakerServiceImpl (SpeakerRepository speakerRepository){
         System.out.println("With repository constructor");
         repository = speakerRepository;
