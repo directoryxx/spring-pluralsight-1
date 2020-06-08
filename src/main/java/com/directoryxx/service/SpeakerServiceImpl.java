@@ -6,11 +6,17 @@ import com.directoryxx.repository.SpeakerRepositoryImpl;
 
 import java.util.List;
 
+
 public class SpeakerServiceImpl implements SpeakerService{
 
-    private SpeakerRepository repository = new SpeakerRepositoryImpl();
+    private SpeakerRepository repository ;
+
 
     public List<Speaker> findAll(){
         return repository.findAll();
+    }
+
+    public void setRepository(SpeakerRepository repository) {
+        this.repository = repository;
     }
 }
