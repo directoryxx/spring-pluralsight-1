@@ -1,5 +1,5 @@
-import service.SpeakerService;
-import service.SpeakerServiceImpl;
+import com.directoryxx.service.SpeakerService;
+import com.directoryxx.service.SpeakerServiceImpl;
 
 public class ConferenceApp {
 

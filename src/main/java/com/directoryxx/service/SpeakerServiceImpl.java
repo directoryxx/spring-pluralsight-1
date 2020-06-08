@@ -1,8 +1,8 @@
-package service;
+package com.directoryxx.service;
 
-import model.Speaker;
-import repository.SpeakerRepository;
-import repository.SpeakerRepositoryImpl;
+import com.directoryxx.model.Speaker;
+import com.directoryxx.repository.SpeakerRepository;
+import com.directoryxx.repository.SpeakerRepositoryImpl;
 
 import java.util.List;
 

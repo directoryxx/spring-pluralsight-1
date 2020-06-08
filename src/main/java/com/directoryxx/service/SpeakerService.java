@@ -1,6 +1,6 @@
-package service;
+package com.directoryxx.service;
 
-import model.Speaker;
+import com.directoryxx.model.Speaker;
 
 import java.util.List;
 

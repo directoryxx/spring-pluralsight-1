@@ -1,8 +1,7 @@
-package repository;
+package com.directoryxx.repository;
 
-import model.Speaker;
+import com.directoryxx.model.Speaker;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface SpeakerRepository {
