@@ -1,10 +1,12 @@
-package repository;
+package com.directoryxx.repository;
 
-import model.Speaker;
+import com.directoryxx.model.Speaker;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository("speakerRepository")
 public class SpeakerRepositoryImpl implements SpeakerRepository {
 
 

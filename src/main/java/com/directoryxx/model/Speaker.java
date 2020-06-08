@@ -1,4 +1,4 @@
-package model;
+package com.directoryxx.model;
 
 public class Speaker {
 
