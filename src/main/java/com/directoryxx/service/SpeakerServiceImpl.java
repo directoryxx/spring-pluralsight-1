@@ -3,6 +3,7 @@ package com.directoryxx.service;
 import com.directoryxx.model.Speaker;
 import com.directoryxx.repository.SpeakerRepository;
 import com.directoryxx.repository.SpeakerRepositoryImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public class SpeakerServiceImpl implements SpeakerService{
     public SpeakerServiceImpl(){
 
     }
+
 
     public SpeakerServiceImpl(SpeakerRepository repository){
         this.repository = repository;

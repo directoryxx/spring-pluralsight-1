@@ -10,8 +10,9 @@
         <property name="speakerRepository" ref="speakerRepository"></property>
     </bean>
     -->
-    <bean name="speakerService" class="com.directoryxx.service.SpeakerServiceImpl">
-        <constructor-arg index="0" ref="speakerRepository"></constructor-arg>
+    <bean name="speakerService" class="com.directoryxx.service.SpeakerServiceImpl" autowire="byType">
+        <!--<constructor-arg index="0" ref="speakerRepository"></constructor-arg>-->
+
     </bean>
 
 </beans>
